@@ -1,24 +1,21 @@
 func largestGoodInteger(num string) string {
-	result := ""
+	var best byte
 	n := len(num)
 
-	for left, right := 0, 2; left < n && right < n; {
-		mid := left + 1
-
-		if num[left] == num[mid] {
-			if num[left] == num[right] {
-				result = max(result, num[left:right+1])
-				left += 3
-				right += 3
-			} else {
-				left = right
-				right += 2
+	for i := 0; i+2 < n; i++ {
+		if num[i] == num[i+1] && num[i] == num[i+2] {
+			if num[i] > best {
+				best = num[i]
 			}
-		} else {
-			left = mid
-			right += 1
+			if best == '9' {
+				break
+			}
 		}
 	}
 
-	return result
+	if best == '0' {
+		return ""
+	}
+
+	return string([]byte{best, best, best})
 }
