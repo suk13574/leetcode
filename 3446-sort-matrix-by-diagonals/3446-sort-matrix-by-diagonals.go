@@ -53,28 +53,20 @@ func sortMatrix(grid [][]int) [][]int {
 	heap.Init(maxHeap)
 
 	for i := 0; i < n; i++ {
-		for x, y := i, 0; x < n && y < n; {
+		for x, y := i, 0; x < n && y < n; x, y = x+1, y+1 {
 			maxHeap.PushInt(grid[x][y])
-			x++
-			y++
 		}
-		for x, y := i, 0; x < n && y < n; {
+		for x, y := i, 0; x < n && y < n; x, y = x+1, y+1 {
 			result[x][y] = maxHeap.PopInt()
-			x++
-			y++
 		}
 	}
 
 	for j := 1; j < n; j++ {
-		for x, y := 0, j; x < n && y < n; {
+		for x, y := 0, j; x < n && y < n; x, y = x+1, y+1 {
 			minHeap.PushInt(grid[x][y])
-			x++
-			y++
 		}
-		for x, y := 0, j; x < n && y < n; {
+		for x, y := 0, j; x < n && y < n; x, y = x+1, y+1 {
 			result[x][y] = minHeap.PopInt()
-			x++
-			y++
 		}
 	}
 	return result
