@@ -1,5 +1,5 @@
 func makeTheIntegerZero(num1 int, num2 int) int {
-	countSum := func(num int) int {
+	countBit := func(num int) int {
 		result := 0
 		for num > 0 {
 			if num&1 == 1 {
@@ -12,13 +12,15 @@ func makeTheIntegerZero(num1 int, num2 int) int {
 	}
 
 	var leftTerm int
-	for i := 1; i < 61; i++ {
+	for i := 1; ; i++ {
 		leftTerm = num1 - (i * num2)
 
-		if leftTerm >= i && countSum(leftTerm) <= i {
+		if leftTerm < i {
+			return -1
+		}
+
+		if leftTerm >= i && countBit(leftTerm) <= i {
 			return i
 		}
 	}
-
-	return -1
 }
