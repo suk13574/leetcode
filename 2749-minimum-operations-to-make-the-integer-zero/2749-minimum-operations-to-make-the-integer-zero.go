@@ -15,7 +15,7 @@ func makeTheIntegerZero(num1 int, num2 int) int {
 	for i := 1; i < 61; i++ {
 		leftTerm = num1 - (i * num2)
 
-		if leftTerm > i && countSum(leftTerm) <= i {
+		if leftTerm >= i && countSum(leftTerm) <= i {
 			return i
 		}
 	}
