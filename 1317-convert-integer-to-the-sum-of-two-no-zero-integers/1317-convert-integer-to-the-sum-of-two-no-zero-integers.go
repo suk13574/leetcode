@@ -1,6 +1,10 @@
 func getNoZeroIntegers(n int) []int {
 	noZeroInt := func(num int) bool {
-		for num >= 10 {
+		if num == 0 {
+			return false
+		}
+
+		for num > 0 {
 			if num%10 == 0 {
 				return false
 			}
