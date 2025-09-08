@@ -1,16 +1,12 @@
+import (
+	"strconv"
+	"strings"
+)
+
 func getNoZeroIntegers(n int) []int {
 	noZeroInt := func(num int) bool {
-		if num == 0 {
-			return false
-		}
+		    return num > 0 && !strings.Contains(strconv.Itoa(num), "0")
 
-		for num > 0 {
-			if num%10 == 0 {
-				return false
-			}
-			num /= 10
-		}
-		return true
 	}
 
 	result := make([]int, 0, 2)
