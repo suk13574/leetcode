@@ -1,7 +1,3 @@
-import (
-	"fmt"
-)
-
 func maxFreqSum(s string) int {
 	isVowel := func(c byte) bool {
 		switch c {
