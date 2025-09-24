@@ -32,7 +32,6 @@ func fractionToDecimal(numerator int, denominator int) string {
 		idx := len(r)
 		division[m] = idx
 	}
-	fmt.Println(repeatIdx)
 
 	if repeatIdx >= 0 {
 		r = r[:repeatIdx] + "(" + r[repeatIdx:] + ")"
