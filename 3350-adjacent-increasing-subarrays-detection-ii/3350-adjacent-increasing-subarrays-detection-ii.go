@@ -1,20 +1,22 @@
 func maxIncreasingSubarrays(nums []int) int {
 	n := len(nums)
-	increLen := make([]int, n)
-	increLen[0] = 1
 
 	res := 0
-	prevLen := 1
+	nowLen := 1
+	prevLen := 0
 	for i := 1; i < n; i++ {
 		if nums[i] > nums[i-1] {
-			increLen[i] = increLen[i-1] + 1
+			nowLen++
 		} else {
-			increLen[i] = 1
-			prevLen = increLen[i-1]
+			res = max(res, nowLen/2)
+			prevLen = nowLen
+			nowLen = 1
 		}
 
-		k := max(max(prevLen, increLen[i])/2, min(prevLen, increLen[i]))
-		res = max(k, res)
+		res = max(res, min(prevLen, nowLen))
 	}
+
+	res = max(res, nowLen/2)
+
 	return res
 }
