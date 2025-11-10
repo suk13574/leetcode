@@ -1,32 +1,24 @@
 func minOperations(nums []int) int {
 	stack := []int{}
 
-	pop := func() {
-		n := len(stack)
-		stack = stack[:n-1]
-	}
-
 	res := 0
-	for i := 0; i < len(nums); i++ {
-		n := len(stack)
+	for _, x := range nums {
+		if x == 0 {
+			res += len(stack)
+			stack = stack[:0]
+			continue
+		}
 
-		for n != 0 && stack[n-1] > nums[i] {
-			pop()
-			n = len(stack)
+		for len(stack) > 0 && stack[len(stack)-1] > x {
+			stack = stack[:len(stack)-1]
 			res++
 		}
 
-		if n != 0 && stack[n-1] == nums[i] {
-			continue
+		if len(stack) == 0 || stack[len(stack)-1] < x {
+			stack = append(stack, x)
 		}
-		if nums[i] == 0 {
-			continue
-		}
-
-		stack = append(stack, nums[i])
 	}
 
 	res += len(stack)
-
 	return res
 }
