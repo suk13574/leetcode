@@ -32,6 +32,9 @@ func maxKDivisibleComponents(n int, edges [][]int, values []int, k int) int {
 		}
 	}
 
-	dfs(0, -1)
+	rest := dfs(0, -1)
+	if rest != 0 {
+		return 0
+	}
 	return res
 }
