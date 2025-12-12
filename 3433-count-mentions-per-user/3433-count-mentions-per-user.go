@@ -13,11 +13,11 @@ func countMentions(numberOfUsers int, events [][]string) []int {
 	// sort by timestamp
 	sort.Slice(events, func(i, j int) bool {
 		if events[i][1] == events[j][1] {
-			return events[i][0] > events[j][0]
+			return events[i][0] == "OFFLINE"
 		}
-		ie, _ := strconv.Atoi(events[i][1])
-		je, _ := strconv.Atoi(events[j][1])
-		return ie < je
+		ti, _ := strconv.Atoi(events[i][1])
+		tj, _ := strconv.Atoi(events[j][1])
+		return ti < tj
 	})
 
 	userStatus := make([]*UserStatus, numberOfUsers)
@@ -25,11 +25,21 @@ func countMentions(numberOfUsers int, events [][]string) []int {
 		userStatus[i] = &UserStatus{isOnline: true}
 	}
 
+	updateStatus := func(now int) {
+		for _, us := range userStatus {
+			if !us.isOnline && us.endTime <= now {
+				us.isOnline = true
+			}
+		}
+	}
+
 	res := make([]int, numberOfUsers)
 	base := 0
 	for _, event := range events {
 		now, _ := strconv.Atoi(event[1])
 		users := strings.Split(event[2], " ")
+
+		updateStatus(now)
 
 		switch event[0] {
 		case "MESSAGE":
@@ -41,11 +51,6 @@ func countMentions(numberOfUsers int, events [][]string) []int {
 					for i, us := range userStatus {
 						if us.isOnline {
 							res[i]++
-						} else {
-							if us.endTime <= now {
-								res[i]++
-								us.isOnline = true
-							}
 						}
 					}
 				default:
