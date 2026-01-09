@@ -7,31 +7,26 @@
  * }
  */
 func subtreeWithAllDeepest(root *TreeNode) *TreeNode {
-	var res *TreeNode
-	maxDepth := -1
-
-	var dfs func(n *TreeNode, depth int) int
-	dfs = func(n *TreeNode, depth int) int {
+	var dfs func(n *TreeNode) (*TreeNode, int)
+	dfs = func(n *TreeNode) (*TreeNode, int) {
 		if n == nil {
-            maxDepth = max(maxDepth, depth-1)
-			return depth-1
+			return nil, 0
 		}
 
-        leftMax := dfs(n.Left, depth+1)
-        rightMax := dfs(n.Right, depth+1)
+		ln, ld := dfs(n.Left)
+		rn, rd := dfs(n.Right)
 
-        if leftMax == maxDepth && rightMax == maxDepth {
-            res = n
-        }
+		if ld == rd {
+			return n, ld + 1
+		}
 
-        if leftMax == maxDepth || rightMax == maxDepth {
-            return maxDepth
-        }
-
-        return depth
+		if ld > rd {
+			return ln, ld + 1
+		}
+		return rn, rd + 1
 	}
 
-	dfs(root, 0)
+	res, _ := dfs(root)
 
 	return res
 }
