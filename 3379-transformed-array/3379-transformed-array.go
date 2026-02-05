@@ -3,11 +3,7 @@ func constructTransformedArray(nums []int) []int {
     res := make([]int, n)
 
     for i, num := range nums{
-        idx := i
-        if num != 0 {
-            idx = ((i + num) % n + n) % n
-        }
-
+        idx := ((i + num) % n + n) % n
         res[i] = nums[idx]
     }
 
