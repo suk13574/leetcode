@@ -11,4 +11,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/suk13574/leetcode/tree/main/1689-partitioning-into-minimum-number-of-deci-binary-numbers/) | Medium |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1680-concatenation-of-consecutive-binary-numbers](https://github.com/suk13574/leetcode/tree/main/1680-concatenation-of-consecutive-binary-numbers/) | Medium |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1680-concatenation-of-consecutive-binary-numbers](https://github.com/suk13574/leetcode/tree/main/1680-concatenation-of-consecutive-binary-numbers/) | Medium |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1680-concatenation-of-consecutive-binary-numbers](https://github.com/suk13574/leetcode/tree/main/1680-concatenation-of-consecutive-binary-numbers/) | Medium |
 <!---LeetCode Topics End-->
