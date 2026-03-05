@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/suk13574/leetcode/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/suk13574/leetcode/tree/main/1689-partitioning-into-minimum-number-of-deci-binary-numbers/) | Medium |
+| [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/suk13574/leetcode/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
