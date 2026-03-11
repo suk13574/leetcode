@@ -5,13 +5,9 @@ func bitwiseComplement(n int) int {
 
 	base := 1
 
-	for base < n {
+	for base <= n {
 		base <<= 1
 	}
 
-	if base == n {
-		return base - 1
-	} else {
-		return base - 1 - n
-	}
+	return base - 1 - n
 }
