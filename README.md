@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1009-complement-of-base-10-integer](https://github.com/suk13574/leetcode/tree/main/1009-complement-of-base-10-integer/) | Easy |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/suk13574/leetcode/tree/main/1680-concatenation-of-consecutive-binary-numbers/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
