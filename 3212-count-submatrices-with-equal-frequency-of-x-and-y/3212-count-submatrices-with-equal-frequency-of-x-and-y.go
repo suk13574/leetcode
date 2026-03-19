@@ -9,6 +9,7 @@ func numberOfSubmatrices(grid [][]byte) int {
 		yPrefix[i] = make([]int, c+1)
 	}
 
+	res := 0
 	for i := 0; i < r; i++ {
 		for j := 0; j < c; j++ {
 			v := grid[i][j]
@@ -20,18 +21,10 @@ func numberOfSubmatrices(grid [][]byte) int {
 			} else if v == 'Y' {
 				yPrefix[i+1][j+1]++
 			}
-		}
-	}
 
-	res := 0
-	for i := 0; i < r; i++ {
-		for j := 0; j < c; j++ {
-			xCnt := xPrefix[i+1][j+1]
-			yCnt := yPrefix[i+1][j+1]
-
-			if xCnt > 0 && xCnt == yCnt {
-				res++
-			}
+            if xPrefix[i+1][j+1] > 0 && xPrefix[i+1][j+1] == yPrefix[i+1][j+1] {
+                res++
+            }
 		}
 	}
 
