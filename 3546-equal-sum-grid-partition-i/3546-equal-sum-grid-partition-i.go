@@ -20,31 +20,29 @@ func canPartitionGrid(grid [][]int) bool {
 		vsum[j] += vsum[j-1]
 	}
 
-	if hsum[r-1]&1 == 0 {
-		target := hsum[r-1] / 2
+	total := hsum[r-1]
+	if total&1 == 1 {
+		return false
+	}
+	target := total / 2
 
-		for i := 0; i < r; i++ {
-			if target == hsum[i] {
-				return true
-			}
+	for i := 0; i < r; i++ {
+		if target == hsum[i] {
+			return true
+		}
 
-			if target < hsum[i] {
-				break
-			}
+		if target < hsum[i] {
+			break
 		}
 	}
 
-	if vsum[c-1]&1 == 0 {
-		target := vsum[c-1] / 2
+	for j := 0; j < c; j++ {
+		if target == vsum[j] {
+			return true
+		}
 
-		for j := 0; j < c; j++ {
-			if target == vsum[j] {
-				return true
-			}
-
-			if target < vsum[j] {
-				break
-			}
+		if target < vsum[j] {
+			break
 		}
 	}
 
