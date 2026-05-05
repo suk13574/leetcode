@@ -196,6 +196,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0061-rotate-list](https://github.com/suk13574/leetcode/tree/main/0061-rotate-list/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/suk13574/leetcode/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 ## Enumeration
 | Problem Name | Difficulty |
@@ -236,4 +237,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0796-rotate-string](https://github.com/suk13574/leetcode/tree/main/0796-rotate-string/) | Easy |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0061-rotate-list](https://github.com/suk13574/leetcode/tree/main/0061-rotate-list/) | Medium |
 <!---LeetCode Topics End-->
