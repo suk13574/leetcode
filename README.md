@@ -71,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/suk13574/leetcode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0396-rotate-function](https://github.com/suk13574/leetcode/tree/main/0396-rotate-function/) | Medium |
 | [0874-walking-robot-simulation](https://github.com/suk13574/leetcode/tree/main/0874-walking-robot-simulation/) | Medium |
+| [1306-jump-game-iii](https://github.com/suk13574/leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/suk13574/leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/suk13574/leetcode/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/suk13574/leetcode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
@@ -242,6 +243,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1306-jump-game-iii](https://github.com/suk13574/leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/suk13574/leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/suk13574/leetcode/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 ## Trie
@@ -255,6 +257,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1306-jump-game-iii](https://github.com/suk13574/leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/suk13574/leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/suk13574/leetcode/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
 ## String Matching
