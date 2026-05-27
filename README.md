@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/suk13574/leetcode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/suk13574/leetcode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
 | [3120-count-the-number-of-special-characters-i](https://github.com/suk13574/leetcode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/suk13574/leetcode/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -157,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/suk13574/leetcode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/suk13574/leetcode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
 | [3120-count-the-number-of-special-characters-i](https://github.com/suk13574/leetcode/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/suk13574/leetcode/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
 | [3488-closest-equal-element-queries](https://github.com/suk13574/leetcode/tree/main/3488-closest-equal-element-queries/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/suk13574/leetcode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/suk13574/leetcode/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
