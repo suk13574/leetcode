@@ -504,6 +504,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1306-jump-game-iii](https://github.com/suk13574/leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/suk13574/leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/suk13574/leetcode/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/suk13574/leetcode/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/suk13574/leetcode/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/suk13574/leetcode/tree/main/3310-remove-methods-from-project/) | Medium |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/suk13574/leetcode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
@@ -568,11 +569,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2196-create-binary-tree-from-descriptions](https://github.com/suk13574/leetcode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/suk13574/leetcode/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/suk13574/leetcode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2196-create-binary-tree-from-descriptions](https://github.com/suk13574/leetcode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/suk13574/leetcode/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 ## Segment Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
