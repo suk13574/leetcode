@@ -1,34 +1,31 @@
 func reverseParentheses(s string) string {
-	idx := 0
+	n := len(s)
 
-	reverse := func(str []byte) string {
-		for l, r := 0, len(str)-1; l < r; l, r = l+1, r-1 {
-			str[l], str[r] = str[r], str[l]
+	pair := make([]int, n)
+	stack := []int{}
+
+	for i := 0; i < n; i++ {
+		if s[i] == '(' {
+			stack = append(stack, i)
+		} else if s[i] == ')' {
+			j := stack[len(stack)-1]
+			stack = stack[:len(stack)-1]
+
+			pair[i] = j
+			pair[j] = i
 		}
-
-		return string(str)
 	}
 
-	var dfs func() string
+	res := []byte{}
 
-	dfs = func() string {
-		sub := []byte{}
-
-		for idx < len(s) {
-			ch := s[idx]
-			idx++
-
-			if ch == '(' {
-				inner := dfs()
-				sub = append(sub, inner...)
-			} else if ch == ')' {
-				return reverse(sub)
-			} else {
-				sub = append(sub, ch)
-			}
+	for i, dir := 0, 1; i < n; i += dir {
+		if s[i] == '(' || s[i] == ')' {
+			i = pair[i]
+			dir = -dir
+		} else {
+			res = append(res, s[i])
 		}
-		return string(sub)
 	}
 
-	return dfs()
+	return string(res)
 }
