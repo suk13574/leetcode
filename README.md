@@ -183,6 +183,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/suk13574/leetcode/tree/main/0053-maximum-subarray/) | Medium |
 | [0139-word-break](https://github.com/suk13574/leetcode/tree/main/0139-word-break/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/suk13574/leetcode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
+| [0221-maximal-square](https://github.com/suk13574/leetcode/tree/main/0221-maximal-square/) | Medium |
 | [0396-rotate-function](https://github.com/suk13574/leetcode/tree/main/0396-rotate-function/) | Medium |
 | [0486-predict-the-winner](https://github.com/suk13574/leetcode/tree/main/0486-predict-the-winner/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/suk13574/leetcode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
@@ -303,6 +304,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/suk13574/leetcode/tree/main/0048-rotate-image/) | Medium |
+| [0221-maximal-square](https://github.com/suk13574/leetcode/tree/main/0221-maximal-square/) | Medium |
 | [0835-image-overlap](https://github.com/suk13574/leetcode/tree/main/0835-image-overlap/) | Medium |
 | [1260-shift-2d-grid](https://github.com/suk13574/leetcode/tree/main/1260-shift-2d-grid/) | Easy |
 | [1301-number-of-paths-with-max-score](https://github.com/suk13574/leetcode/tree/main/1301-number-of-paths-with-max-score/) | Hard |
@@ -387,6 +389,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/suk13574/leetcode/tree/main/0053-maximum-subarray/) | Medium |
 | [0115-distinct-subsequences](https://github.com/suk13574/leetcode/tree/main/0115-distinct-subsequences/) | Hard |
 | [0139-word-break](https://github.com/suk13574/leetcode/tree/main/0139-word-break/) | Medium |
+| [0221-maximal-square](https://github.com/suk13574/leetcode/tree/main/0221-maximal-square/) | Medium |
 | [0396-rotate-function](https://github.com/suk13574/leetcode/tree/main/0396-rotate-function/) | Medium |
 | [0486-predict-the-winner](https://github.com/suk13574/leetcode/tree/main/0486-predict-the-winner/) | Medium |
 | [0788-rotated-digits](https://github.com/suk13574/leetcode/tree/main/0788-rotated-digits/) | Medium |
