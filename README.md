@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/suk13574/leetcode/tree/main/0020-valid-parentheses/) | Easy |
+| [0087-scramble-string](https://github.com/suk13574/leetcode/tree/main/0087-scramble-string/) | Hard |
 | [0115-distinct-subsequences](https://github.com/suk13574/leetcode/tree/main/0115-distinct-subsequences/) | Hard |
 | [0139-word-break](https://github.com/suk13574/leetcode/tree/main/0139-word-break/) | Medium |
 | [0657-robot-return-to-origin](https://github.com/suk13574/leetcode/tree/main/0657-robot-return-to-origin/) | Easy |
@@ -387,6 +388,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0045-jump-game-ii](https://github.com/suk13574/leetcode/tree/main/0045-jump-game-ii/) | Medium |
 | [0053-maximum-subarray](https://github.com/suk13574/leetcode/tree/main/0053-maximum-subarray/) | Medium |
+| [0087-scramble-string](https://github.com/suk13574/leetcode/tree/main/0087-scramble-string/) | Hard |
 | [0115-distinct-subsequences](https://github.com/suk13574/leetcode/tree/main/0115-distinct-subsequences/) | Hard |
 | [0139-word-break](https://github.com/suk13574/leetcode/tree/main/0139-word-break/) | Medium |
 | [0221-maximal-square](https://github.com/suk13574/leetcode/tree/main/0221-maximal-square/) | Medium |
