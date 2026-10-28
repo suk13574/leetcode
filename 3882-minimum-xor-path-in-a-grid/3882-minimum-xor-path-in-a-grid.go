@@ -1,13 +1,10 @@
 func minCost(grid [][]int) int {
 	m, n := len(grid), len(grid[0])
 
-	dp := make([][][]bool, m)
+	dp := make([][][1024]bool, m)
 
 	for i := 0; i < m; i++ {
-		dp[i] = make([][]bool, n)
-		for j := 0; j < n; j++ {
-			dp[i][j] = make([]bool, 1024)
-		}
+		dp[i] = make([][1024]bool, n)
 	}
 
 	dp[0][0][grid[0][0]] = true
