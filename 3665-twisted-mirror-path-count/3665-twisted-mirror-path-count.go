@@ -27,11 +27,11 @@ func uniquePaths(grid [][]int) int {
             }
 
 			if i+1 < m {
-				dp[i+1][j][0] = (dp[i+1][j][0] + down) % MOD
+				dp[i+1][j][Down] = (dp[i+1][j][Down] + down) % MOD
 			}
 
 			if j+1 < n {
-				dp[i][j+1][1] = (dp[i][j+1][1] + right) % MOD
+				dp[i][j+1][Right] = (dp[i][j+1][Right] + right) % MOD
 			}
 		}
 	}
