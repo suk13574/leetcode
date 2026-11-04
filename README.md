@@ -63,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0045-jump-game-ii](https://github.com/suk13574/leetcode/tree/main/0045-jump-game-ii/) | Medium |
+| [0765-couples-holding-hands](https://github.com/suk13574/leetcode/tree/main/0765-couples-holding-hands/) | Hard |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/suk13574/leetcode/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1386-cinema-seat-allocation](https://github.com/suk13574/leetcode/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/suk13574/leetcode/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
@@ -485,6 +486,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0765-couples-holding-hands](https://github.com/suk13574/leetcode/tree/main/0765-couples-holding-hands/) | Hard |
 | [1254-number-of-closed-islands](https://github.com/suk13574/leetcode/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/suk13574/leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/suk13574/leetcode/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
@@ -497,6 +499,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0765-couples-holding-hands](https://github.com/suk13574/leetcode/tree/main/0765-couples-holding-hands/) | Hard |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/suk13574/leetcode/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/suk13574/leetcode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/suk13574/leetcode/tree/main/3310-remove-methods-from-project/) | Medium |
@@ -607,6 +610,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0765-couples-holding-hands](https://github.com/suk13574/leetcode/tree/main/0765-couples-holding-hands/) | Hard |
 | [1254-number-of-closed-islands](https://github.com/suk13574/leetcode/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1306-jump-game-iii](https://github.com/suk13574/leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/suk13574/leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
@@ -636,6 +640,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0765-couples-holding-hands](https://github.com/suk13574/leetcode/tree/main/0765-couples-holding-hands/) | Hard |
 | [1254-number-of-closed-islands](https://github.com/suk13574/leetcode/tree/main/1254-number-of-closed-islands/) | Medium |
 | [1306-jump-game-iii](https://github.com/suk13574/leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [1345-jump-game-iv](https://github.com/suk13574/leetcode/tree/main/1345-jump-game-iv/) | Hard |
