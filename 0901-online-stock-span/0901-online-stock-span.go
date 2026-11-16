@@ -1,31 +1,41 @@
-type StockSpanner struct {
-    stock []int
+type Stock struct {
+	price int
+	span  int
 }
 
+type StockSpanner struct {
+	stock []*Stock
+}
 
 func Constructor() StockSpanner {
-    return StockSpanner{
-        stock: make([]int, 0),
-    }
+	return StockSpanner{
+		stock: make([]*Stock, 0),
+	}
 }
-
 
 func (s *StockSpanner) Next(price int) int {
-    res := 1
+	span := 1
 
-    for pos := len(s.stock) - 1; pos >= 0; pos-- {
-        if s.stock[pos] <= price {
-            res++
-        } else {
-            break
-        }
-    }
+	for len(s.stock) > 0 {
+		n := len(s.stock)
 
-    s.stock = append(s.stock, price)
+		top := s.stock[n-1]
 
-    return res
+		if top.price <= price {
+			span += top.span
+			s.stock = s.stock[:n-1]
+		} else {
+			break
+		}
+	}
+
+	s.stock = append(s.stock, &Stock{
+		price: price,
+		span:  span,
+	})
+
+	return span
 }
-
 
 /**
  * Your StockSpanner object will be instantiated and called as such:
