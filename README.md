@@ -674,6 +674,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1306-jump-game-iii](https://github.com/suk13574/leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [1345-jump-game-iv](https://github.com/suk13574/leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/suk13574/leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
+| [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/suk13574/leetcode/tree/main/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/suk13574/leetcode/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/suk13574/leetcode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/suk13574/leetcode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
@@ -718,12 +719,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [2196-create-binary-tree-from-descriptions](https://github.com/suk13574/leetcode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/suk13574/leetcode/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
+| [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/suk13574/leetcode/tree/main/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/) | Medium |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/suk13574/leetcode/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2196-create-binary-tree-from-descriptions](https://github.com/suk13574/leetcode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/suk13574/leetcode/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
+| [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/suk13574/leetcode/tree/main/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level/) | Medium |
 ## Segment Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
