@@ -93,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/suk13574/leetcode/tree/main/0048-rotate-image/) | Medium |
+| [0268-missing-number](https://github.com/suk13574/leetcode/tree/main/0268-missing-number/) | Easy |
 | [0396-rotate-function](https://github.com/suk13574/leetcode/tree/main/0396-rotate-function/) | Medium |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/suk13574/leetcode/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/suk13574/leetcode/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
@@ -147,6 +148,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0268-missing-number](https://github.com/suk13574/leetcode/tree/main/0268-missing-number/) | Easy |
 | [1009-complement-of-base-10-integer](https://github.com/suk13574/leetcode/tree/main/1009-complement-of-base-10-integer/) | Easy |
 | [1386-cinema-seat-allocation](https://github.com/suk13574/leetcode/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/suk13574/leetcode/tree/main/1680-concatenation-of-consecutive-binary-numbers/) | Medium |
@@ -196,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/suk13574/leetcode/tree/main/0139-word-break/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/suk13574/leetcode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0221-maximal-square](https://github.com/suk13574/leetcode/tree/main/0221-maximal-square/) | Medium |
+| [0268-missing-number](https://github.com/suk13574/leetcode/tree/main/0268-missing-number/) | Easy |
 | [0396-rotate-function](https://github.com/suk13574/leetcode/tree/main/0396-rotate-function/) | Medium |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/suk13574/leetcode/tree/main/0453-minimum-moves-to-equal-array-elements/) | Medium |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/suk13574/leetcode/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
@@ -366,6 +369,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0041-first-missing-positive](https://github.com/suk13574/leetcode/tree/main/0041-first-missing-positive/) | Hard |
 | [0139-word-break](https://github.com/suk13574/leetcode/tree/main/0139-word-break/) | Medium |
+| [0268-missing-number](https://github.com/suk13574/leetcode/tree/main/0268-missing-number/) | Easy |
 | [0874-walking-robot-simulation](https://github.com/suk13574/leetcode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [1189-maximum-number-of-balloons](https://github.com/suk13574/leetcode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/suk13574/leetcode/tree/main/1331-rank-transform-of-an-array/) | Easy |
@@ -488,6 +492,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/suk13574/leetcode/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/suk13574/leetcode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
+| [0268-missing-number](https://github.com/suk13574/leetcode/tree/main/0268-missing-number/) | Easy |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/suk13574/leetcode/tree/main/1385-find-the-distance-value-between-two-arrays/) | Easy |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/suk13574/leetcode/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/suk13574/leetcode/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
@@ -548,6 +553,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0268-missing-number](https://github.com/suk13574/leetcode/tree/main/0268-missing-number/) | Easy |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/suk13574/leetcode/tree/main/0462-minimum-moves-to-equal-array-elements-ii/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/suk13574/leetcode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [1288-remove-covered-intervals](https://github.com/suk13574/leetcode/tree/main/1288-remove-covered-intervals/) | Medium |
